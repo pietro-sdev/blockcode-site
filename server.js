@@ -13,5 +13,5 @@ app.prepare().then(() => {
   }).listen(process.env.PORT || 3000, (err) => {
     if (err) throw err;
     console.log('> Server is running on http://localhost:3000');
-  });
+    });
 });

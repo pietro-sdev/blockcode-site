@@ -18,7 +18,7 @@ const Contato = () => {
     setIsSubmitting(true);
 
     try {
-        const response = await fetch('http://localhost:5000/sendEmail', {
+        const response = await fetch('http://89.117.32.233:5000/sendEmail', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
